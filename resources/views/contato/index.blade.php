@@ -6,9 +6,6 @@
             <div class="pull-left">
                 <h2>Amar Assist - CRUD</h2>
             </div>
-            <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('contato.create') }}"> Adicionar contato</a>
-            </div>
         </div>
     </div>
    
@@ -24,7 +21,9 @@
             <th>Nome</th>
             <th>E-mail</th>
             <th>Telefone</th>
-            <th width="280px">Action</th>
+            <th><div class="pull-right">
+                <a class="btn btn-success" href="{{ route('contato.create') }}"> Adicionar contato</a>
+            </div></th>
         </tr>
         @foreach ($data as $key => $value)
         <tr>
