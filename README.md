@@ -29,7 +29,7 @@ Dentro da pasta laradock, digite o seguinte comando para instalar as imagens doc
 - sudo docker-compose up -d nginx mysql phpmyadmin
 
 Após executar o comando acima, acesse o phpmyadmin:
-- localhost:1010
+- http://localhost:1010
 - Servidor: mysql
 - Pass: root
 - User: root
